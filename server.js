@@ -5,7 +5,7 @@ const api = require('./server/API Routers/index');
 const app = express();
 var hbs = require('hbs');
 
-var port = process.env.PORT || 4000;
+var port = process.env.PORT || 300;
 app.use(bodyParser.json());
 app.set('view engine', 'hbs');
 app.use(bodyParser.urlencoded({ extended: false }));
