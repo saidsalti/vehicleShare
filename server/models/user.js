@@ -4,7 +4,6 @@ var schema = mongoose.Schema;
 
 var userSchema = new schema({
     firstName: { type: String },
-
     secondName: { type: String, required: [true, "requer Second Name"] },
     lastName: { type: String, required: true },
     phone: { type: String, required: [true, "Phone is required!"] },
