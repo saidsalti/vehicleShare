@@ -18,6 +18,8 @@
     },
     "homepage": "https://github.com/saidsalti/vehicleShare#readme",
     "dependencies": {
-        "express": "^4.15.5"
+        "body-parser": "^1.18.2",
+        "express": "^4.15.5",
+        "hbs": "^4.0.1"
     }
 }
