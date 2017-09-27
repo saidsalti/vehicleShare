@@ -10,5 +10,5 @@ app.get('/about', (req, resp) => {
 
 })
 
-var port = process.env.PORT || 443;
+var port = process.env.PORT || 3000;
 app.listen(port);
