@@ -9,6 +9,9 @@ app.get('/about', (req, resp) => {
     resp.send('About Page!!');
 
 })
+app.get("/test", (req, resp) => {
+    resp.send('Test Page');
+});
 
 var port = process.env.PORT || 3000;
 app.listen(port);
