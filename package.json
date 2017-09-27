@@ -19,7 +19,11 @@
     "homepage": "https://github.com/saidsalti/vehicleShare#readme",
     "dependencies": {
         "body-parser": "^1.18.2",
+        "bootstrap": "^3.3.7",
         "express": "^4.15.5",
-        "hbs": "^4.0.1"
+        "hbs": "^4.0.1",
+        "mongoose": "^4.11.13",
+        "mongoose-unique-validator": "^1.0.6",
+        "mongoose-validator": "^1.3.2"
     }
 }
