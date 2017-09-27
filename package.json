@@ -1,22 +1,26 @@
 {
-  "name": "s",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "master"
-  ],
-  "author": "Said Yaqoob AL-Salti",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "bootstrap": "^3.3.7",
-    "express": "^4.15.5",
-    "hbs": "^4.0.1",
-    "mongoose": "^4.11.13",
-    "mongoose-unique-validator": "^1.0.6"
-  }
+    "name": "s",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": "6.11.1"
+    },
+    "keywords": [
+        "master"
+    ],
+    "author": "Said Yaqoob AL-Salti",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "bootstrap": "^3.3.7",
+        "express": "^4.15.5",
+        "hbs": "^4.0.1",
+        "mongoose": "^4.11.13",
+        "mongoose-unique-validator": "^1.0.6"
+    }
 }
