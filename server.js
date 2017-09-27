@@ -15,7 +15,9 @@ apiRouter(app);
 
 app.get("/", (req, res) => {
     res.render("home");
-});
+}, err => {
+    console.log(err);
+})
 app.get("/test", (req, res) => {
 
     res.send("Welcom");
