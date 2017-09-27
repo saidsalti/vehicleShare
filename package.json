@@ -1,22 +1,23 @@
 {
-  "name": "vehicleshare",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/saidsalti/vehicleShare.git"
-  },
-  "author": "Said",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/saidsalti/vehicleShare/issues"
-  },
-  "homepage": "https://github.com/saidsalti/vehicleShare#readme",
-  "dependencies": {
-    "express": "^4.15.5"
-  }
+    "name": "vehicleshare",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/saidsalti/vehicleShare.git"
+    },
+    "author": "Said",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/saidsalti/vehicleShare/issues"
+    },
+    "homepage": "https://github.com/saidsalti/vehicleShare#readme",
+    "dependencies": {
+        "express": "^4.15.5"
+    }
 }
