@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const apiRouter = require('./server/app');
-const api = require('./server/API Routers/index');
+//const apiRouter = require('./server/app');
+//const api = require('./server/API Routers/index');
 const app = express();
 var hbs = require('hbs');
 
@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.set('view engine', 'hbs');
 app.use(bodyParser.urlencoded({ extended: false }));
 console.log("befor");
-apiRouter(app);
+//apiRouter(app);
 console.log("After");
 
 app.get("/", (req, res) => {
