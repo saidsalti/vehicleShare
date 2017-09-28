@@ -9,15 +9,16 @@ var port = process.env.PORT || 4000;
 app.use(bodyParser.json());
 app.set('view engine', 'hbs');
 app.use(bodyParser.urlencoded({ extended: false }));
-
+console.log("befor");
 apiRouter(app);
-
+console.log("After");
 
 app.get("/", (req, res) => {
     res.render("home");
 }, err => {
     console.log(err);
 })
+
 app.get("/test", (req, res) => {
 
     res.send("Welcom");
